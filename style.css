@@ -34,7 +34,7 @@ body {
     gap: 1.5em;
   }
   
-  
+  header ,
   header > img {
     border-radius: 50%;
   }
@@ -88,7 +88,7 @@ body {
   }
   
   ul > a > li:hover {
-    background-color: #01c8cf58;
+    background-color: #7b7b7b;
     backdrop-filter: blur(10px) saturate(260%) contrast (180%);
     -webkit-backdrop-filter: blur(10px) saturate(260%) contrast (180%);
   }
