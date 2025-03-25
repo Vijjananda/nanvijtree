@@ -34,12 +34,12 @@ body {
     gap: 1.5em;
   }
   
-  header > a,
-  header a > img {
+  
+  header > img {
     border-radius: 50%;
   }
   
-  header a > img {
+  header > img {
     width: 6em;
     height: 6em;
     border: 1px solid #fff;
@@ -47,7 +47,7 @@ body {
     transition: transform 1s;
   }
   
-  header a > img :hover {
+  header > img :hover {
     transform: rotate(360deg);
   }
   
